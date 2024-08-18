@@ -1,0 +1,102 @@
+@media only screen and (min-width: 200px) and (max-width: 330px){
+    body{
+        overflow: scroll;
+        background-color: #fff;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 1);
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 2rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+    }
+    h1{
+        top: 5px;
+    }
+}
+@media only screen and (min-width: 330px) and (max-width: 830px){
+    body{
+        overflow: hidden;
+        background-color: #fff;
+    }
+    #navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #navbar ul{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 1);
+        box-sizing: border-box;
+        z-index: 5;
+    }
+    #navbar ul li:nth-child(4){
+        display: none;
+    }
+    #navbar ul li:nth-child(5){
+        display: block;
+    }
+    #navbar ul li{
+        margin-top: 2rem;
+    }
+    #navbar .buttons{
+        display: none;
+    }
+    #navbar .bars{
+        display: flex;
+        position: relative;
+        z-index: 7;
+    }
+    #navbar .bar2{
+        position: relative;
+        z-index: 4;
+    }
+    .footer{
+        height: 4rem;
+    }
+    h1{
+        top: 10px;
+    }
+}
